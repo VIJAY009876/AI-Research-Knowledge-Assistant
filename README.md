@@ -16,5 +16,19 @@ Building an end-to-end AI Research & Knowledge Assistant using:
 - MCP 
 This project is developed incrementally as part of a GenAI Bootcamp.
 
- 
+create env:
+ python -m venv venv
+
+activate env
+ source venv/bin/activate
+
+install
+ pip install -r requrments.txt
+
+
+push to git
+    git add .
+    git commit -m "Initial project structure"
+    git push
+
 
