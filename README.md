@@ -19,16 +19,16 @@ This project is developed incrementally as part of a GenAI Bootcamp.
 create env:
  python -m venv venv
 
-activate env
+activate env :
  source venv/bin/activate
 
-install
+install :
  pip install -r requrments.txt
 
 
-push to git
-    git add .
-    git commit -m "Initial project structure"
-    git push
+push to git:
+  -  git add .
+  -  git commit -m "Initial project structure"
+  -  git push
 
 
