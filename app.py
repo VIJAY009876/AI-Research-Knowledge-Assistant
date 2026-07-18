@@ -1,4 +1,5 @@
+
 from src.llm.client import ask_llm
-response = ask_llm("Who are you?")
+response = ask_llm("explain about karnakata")
 
 print(response)
