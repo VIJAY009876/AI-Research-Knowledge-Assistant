@@ -31,7 +31,7 @@ def ask_llm(prompt : str)-> str:
     response = client.chat.completions.create(
         model = MODEL,
         temperature = 0.2,  # we can say randomness is 0.4
-        max_tokens = 500,  # This prevents unnecessarily long responses: defult is 500
+        max_tokens = 200,  # This prevents unnecessarily long responses: defult is 500
         messages = [
             {
                 "role": "system",
